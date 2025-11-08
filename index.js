@@ -170,7 +170,7 @@ async function run() {
 
                 if (skipRecentArtifact) {
                   console.log(
-                    `Skipping recent artifact (id: ${artifact.id}, name: ${artifact.name}).`
+                    `Skipping recent artifact (id: ${artifact.id}, name: ${artifact.name}, size_in_bytes: ${artifact.size_in_bytes}).`
                   );
 
                   skippedArtifactsCounter += 1;
