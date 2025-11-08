@@ -1,6 +1,6 @@
 name: Run
 
-on: [push]
+on: [push, workflow_dispatch]
 
 env:
   node_version: "12.x"
